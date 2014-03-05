@@ -1,10 +1,16 @@
 Tempo::Application.routes.draw do
   root "pages#home"
   get "about" => "pages#about"
-  get "contact" => "pages#contact"
-  get "register" => "pages#register"
-  get "blog" => "pages#blog"
-  get "portfolio" => "pages#portfolio"
+  get "assets" => "pages#assets"
+  get "athlete" => "pages#athlete"
+  get "audio" => "pages#audio"
+  get "event" => "pages#event"
+  get "photo" => "pages#photo"
+  get "video" => "pages#video"
+  get "search" => "pages#search"
+  get "upload" => "pages#upload"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

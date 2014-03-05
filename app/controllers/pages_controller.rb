@@ -5,9 +5,28 @@ class PagesController < ApplicationController
 	def about
 	end  
 
-	def contact
+	def athlete
 	end  
 
-	def register
+	def event
+	end 
+
+	def audio
+	end
+
+	def photo
 	end  
+
+	def video
+	end  
+
+	def assets
+	end 
+
+	def search
+	end 
+
+	def upload
+	end 
+
 end
